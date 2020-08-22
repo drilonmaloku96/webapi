@@ -47,4 +47,4 @@ def api_id():
     return jsonify(results)
 
 
-app.run()
+app.run(debug=True, port=80)
