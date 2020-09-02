@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
-app = flask.Flask (__name__)
+app = Flask(__name__)
 app.config["DEBUG"] = True
 
 books = [
